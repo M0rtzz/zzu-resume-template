@@ -1,6 +1,6 @@
 {
   "name": "zzu-resume-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "郑州大学LaTeX简历模板",
   "main": ".cz-config.js",
   "scripts": {
