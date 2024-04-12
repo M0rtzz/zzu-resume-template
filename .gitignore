@@ -2,7 +2,7 @@
 .husky/
 .vscode/
 
-## Core latex/pdflatex auxiliary files:
+## Core latex auxiliary files:
 *.aux
 *.lof
 *.log
