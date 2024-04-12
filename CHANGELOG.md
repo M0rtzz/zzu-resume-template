@@ -1,8 +1,10 @@
-# Changelog
+## <small>1.0.11 (2024-04-12)</small>
 
-All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+* chore(release): 1.0.11 ([e928796](https://github.com/M0rtzz/zzu-resume-template/commit/e928796))
+* 📝 docs(CHANGELOG.md): automatic update ([009f37e](https://github.com/M0rtzz/zzu-resume-template/commit/009f37e))
+* 🙈 ignore(.gitignore): update .gitignore ([72beffd](https://github.com/M0rtzz/zzu-resume-template/commit/72beffd))
 
-## [1.0.11](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.10...v1.0.11) (2024-04-12)
+
 
 ## <small>1.0.10 (2024-04-12)</small>
 
@@ -82,3 +84,6 @@ All notable changes to this project will be documented in this file. See [commit
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
+
+
+
