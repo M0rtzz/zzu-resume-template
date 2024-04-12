@@ -23,4 +23,5 @@
 *.synctex.gz(busy)
 *.pdfsync
 
+## output pdf file
 .pdf
