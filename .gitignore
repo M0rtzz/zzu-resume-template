@@ -25,4 +25,4 @@
 *.pdfsync
 
 ## output pdf file
-.pdf
+# .pdf
