@@ -1,8 +1,13 @@
-# Changelog
+## <small>1.0.12 (2024-04-19)</small>
 
-All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+* chore(release): 1.0.12 ([25f9bb5](https://github.com/M0rtzz/zzu-resume-template/commit/25f9bb5))
+* ✨ feat(resume.tex): use fontawesome-4.7.0 ([0cad0e4](https://github.com/M0rtzz/zzu-resume-template/commit/0cad0e4))
+* 🍱 asset: add FontAwesome-4.7.0.otf ([b7eaf48](https://github.com/M0rtzz/zzu-resume-template/commit/b7eaf48))
+* 💄 ui(fontawesome-4.7.0.sty): add a style file for fontawesome-4.7.0 ([2f95e84](https://github.com/M0rtzz/zzu-resume-template/commit/2f95e84))
+* 📝 docs(CHANGELOG.md): automatic update ([0bb24e0](https://github.com/M0rtzz/zzu-resume-template/commit/0bb24e0))
+* 📦 build(resume.pdf): update pdf file ([3b8e1c7](https://github.com/M0rtzz/zzu-resume-template/commit/3b8e1c7))
 
-## [1.0.12](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.11...v1.0.12) (2024-04-19)
+
 
 ## <small>1.0.11 (2024-04-12)</small>
 
@@ -90,3 +95,6 @@ All notable changes to this project will be documented in this file. See [commit
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
+
+
+
