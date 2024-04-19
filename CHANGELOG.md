@@ -1,8 +1,11 @@
-# Changelog
+## <small>1.0.13 (2024-04-19)</small>
 
-All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+* chore(release): 1.0.13 ([9eb8285](https://github.com/M0rtzz/zzu-resume-template/commit/9eb8285))
+* 📝 docs(CHANGELOG.md): automatic update ([9fb95b1](https://github.com/M0rtzz/zzu-resume-template/commit/9fb95b1))
+* 📝 docs(README.md): add hyperlink to VSCode configuration doc ([e334612](https://github.com/M0rtzz/zzu-resume-template/commit/e334612))
+* 📝 docs(VSCode_Configuration.md): add VSCode_Configuration.md ([2d5596d](https://github.com/M0rtzz/zzu-resume-template/commit/2d5596d))
 
-## [1.0.13](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.12...v1.0.13) (2024-04-19)
+
 
 ## <small>1.0.12 (2024-04-19)</small>
 
@@ -101,3 +104,6 @@ All notable changes to this project will be documented in this file. See [commit
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
+
+
+
