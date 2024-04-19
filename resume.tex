@@ -1,0 +1,248 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8
+% @brief: resume template in XeLaTeX
+% @author: M0rtzz
+% @reference: a template from https://overleaf.com
+% @date: 2024-01-31
+% @version: 1.0
+% @blog: LaTeX配置教程：https://blog.csdn.net/M0rtzz/article/details/136026129
+
+\documentclass[11pt]{article}
+
+% 全局禁用段落首行缩进
+\setlength{\parindent}{0pt}
+
+% 一些扩展功能和优化，定义了XeTeX Logo
+\usepackage{xltxtra}
+\usepackage{bookmark}
+
+% 使用hyperlink显示email和url
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage{url}
+\urlstyle{tt}
+\usepackage{multicol}
+\usepackage{xcolor}
+
+%%%% 统一一种颜色，偏蓝色，用于section下划线和font-awesome
+\definecolor{ZZU_BLUE}{RGB}{0, 63,  148} % 从zzu校徽上取的蓝色
+
+%%% \widthof[]{} 用于特殊对齐时用到
+\usepackage{calc}
+
+%%%% 利用tikz来定位照片和学校Logo
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+% 加载字体
+\usepackage{fontspec}
+\usepackage{xeCJK}
+
+%% 取消中文与数字之间间隙
+\CJKsetecglue{}
+
+%%%%% 字体需要自己下载安装，注意版权问题，这两种字体应该比较好看，英文Helvetica，中文方正兰亭黑，也是有多种版本，自己试试哪些好看。
+%%%%% windows好像需要先安装字体，之后下面语句就够了
+%main document font
+%\setmainfont[
+%  BoldFont = HelveticaNeueLTPro-Md.otf ,
+%]{HelveticaNeueLTPro-Roman.otf}
+%
+%\setCJKmainfont[
+%BoldFont=Pro_GB18030-DemiBold.otf,
+%]{Pro_GB18030.otf}
+%%%%% 字体需要自己下载安装，注意版权问题
+
+%%%%% linux只需要字体路径就行了，如下
+%% main document font
+\setmainfont[
+    Path = ./fonts/,
+    Extension = .otf,
+    BoldFont = HelveticaNeueLTPro-Md.otf,
+]{HelveticaNeueLTPro-Roman.otf}
+\setCJKmainfont[
+    Path = ./fonts/,
+    Extension = .otf,
+    BoldFont=ProGB18030-DemiBold.otf,
+]{ProGB18030.otf}
+
+%%%%% 定义更漂亮的“C++”，参考https://tex.stackexchange.com/questions/4302/prettiest-way-to-typeset-c-cplusplus 
+%%%%% 貌似跟具体字体大小有关，需要调下参数，我测试感觉下面的比较好看
+\usepackage{relsize}
+\usepackage{xspace}
+\protected\def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.28ex}{\relsize{-1}++}}\xspace}
+
+% use fontawesome-4.7.0
+\usepackage{fontawesome-4.7.0}
+\usepackage[
+    a4paper,
+    left=1.2cm,
+    right=1.2cm,
+    top=1.5cm,
+    bottom=1cm,
+    nohead
+]{geometry}
+\renewcommand{\baselinestretch}{1.1} %定义行间距1.1，根据需要调整
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+\setlist{noitemsep} % 去除列表项之间的间距，但保留整个列表周围的间距
+%\setlist{nosep} % 删除列表内部及周围的全部垂直间距
+\setlist[itemize]{topsep=0.25em, leftmargin=*} % 对“itemize”环境设置：顶部和底部间距为0.25em，左侧缩进与文本对齐
+\setlist[enumerate]{topsep=0.25em, leftmargin=*} % 对“enumerate”环境设置：顶部和底部间距为0.25em，左侧缩进与文本对齐
+
+\titleformat{\section}         % 自定义 \section 命令格式
+{\large\bfseries\raggedright} % 设置 \section 标题样式为较大字体（\large）、粗体（\bfseries）并左对齐（\raggedright）
+{}{0em}                      % 这里可以用来为所有小节添加前缀，如 '第...节'
+{}                           % 这里可以插入代码，在标题前面显示内容
+[{\color{ZZU_BLUE}\titlerule}]                 % 在每个小节标题后插入一条颜色为 ZZU_BLUE 的水平线
+\titlespacing*{\section}{0cm}{*1.6}{*1.2}
+\usepackage{siunitx}
+\usepackage{amssymb}
+
+%\xeCJKsetup{CJKspace=true}
+%\xeCJKDeclareCharClass{CJK}{`0 -> `9}    % 设置 0-9 以 CJK 字体输出
+%\normalspacedchars{0,1,2,3,4,5,6,7,8,9} % 0-9 的字符类被还原
+
+\begin{document}
+\pagenumbering{gobble} % 隐藏页码显示
+%%%% 利用tikz来定位照片，部分招聘单位可能需要“以貌取人”
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor = north east] at ($(current page.north east)+(-1cm,-1.2cm)$) {\includegraphics[height=2.8cm]{./images/one-inch_blue_background.pdf}};
+\end{tikzpicture}%
+%%%% 利用tikz来定位学校Logo，这里只在第一页显示，如果需要每页都有，可以考虑在页眉、页脚或者background中加入，不过简历也就一两页，无所谓了
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor = north west] at ($(current page.north west)+(0.2cm,-0.2cm)$) {\includegraphics[height=1.5cm]{./images/zzu_new.pdf}};
+\end{tikzpicture}
+
+%%%% 利用tikz来定位页脚栏，电子版简历使用，黑白纸质打印效果可能并不好。这里只在第一页显示，如果需要每页都有，页脚或者backgroud宏包中加入。
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor = south,fill=ZZU_BLUE,draw=none,minimum width=\paperwidth,minimum height=1.5em,align=center,font=\footnotesize,text=white] at ($(current page.south)$)
+    {\faGithubAlt \ \href{https://github.com/XX}{https://github.com/XX}\qquad
+        \faRssSquare \ \href{https://XX.github.io}{https://XX.github.io} };
+\end{tikzpicture}
+
+%tikzpicture环境很敏感，注释周围的空格、空行都会引起水平距离或垂直距离的变化，
+%
+\centerline{\LARGE\bfseries{M0rtzz}}
+
+\centerline{\normalsize{20岁 \hspace{0.5ex}|\hspace{0.5ex} 男 \hspace{0.5ex}|\hspace{0.5ex} 郑州}}
+
+\centerline{\normalsize{
+        \faPhone \ 123 4567 8900 \quad
+        \faEnvelopeO \ \href{mailto:m0rtzz@your-email.com}{m0rtzz@your-email.com}}}
+%%最好用你的edu邮箱
+
+\centerline{\normalsize{ 
+ \faExternalLink \ \href{https://XX.github.io}{https://XX.github.io} \quad
+ \faGithubAlt \ \href{https://github.com/XX}{https://github.com/XX}
+ }}
+ \vspace{1.5ex}
+
+% \section{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faGraduationCap}\  教育背景}
+\section{\texorpdfstring{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faGraduationCap}\ 教育经历}{教育经历}}
+
+ {\bf 郑州大学}\hfill 2021年09月\hspace{0.5em}--\hspace{0.5em}至今
+
+% 本科 \hspace{1ex} 计算机与人工智能学院 \hspace{1ex} 计算机科学与技术专业
+本科 \enspace 计算机与人工智能学院 \enspace 计算机科学与技术专业
+
+% \section{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faTrophy}\ 获奖情况}
+\section{\texorpdfstring{\makebox[\widthof{\faTrophy}][c]{\color{ZZU_BLUE}\faTrophy}\ 获奖情况}{获奖情况}}
+\begin{itemize}
+    \item 奖学金类：{\bf 郑州大学X等奖学金}，{\bf XX奖学金}
+    \item 专业类：XX比赛{\bf 冠军（国家级一等奖）}，XX比赛{\bf 冠军（国家级一等奖）}，XX比赛{\bf 季军（国家级一等奖）}
+    \item 荣誉类： 郑州大学三好学生
+\end{itemize}
+
+% \section{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faFileText}\ 学习成绩}
+\section{\texorpdfstring{\makebox[\widthof{\faFileText}][c]{\color{ZZU_BLUE}\faFileText}\ 学习成绩}{学习成绩}}
+ {\bf 绩点：$\mathsf{3.1_{/4}}$}
+
+ {\bf 专业排名前50\%}
+\begin{itemize}[parsep=0.5ex]
+    \item 专业类：微积分-XX，概率与数理统计-XX，数据结构-XX，线性代数-XX，计算机组成原理-XX，数据库系统原理-XX...
+    \item 英语：通过 四级（CET-4），六级（CET-6）
+
+\end{itemize}
+
+% \section{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faUniversity}\ 实践经历}
+\section{\texorpdfstring{\makebox[\widthof{\faUniversity}][c]{\color{ZZU_BLUE}\faUniversity}\ 研究经历}{研究经历}}
+ %  {\bf 教育实习}
+ {\bf XX比赛}\hfill 2023年XX月XX日\hspace{0.5em}--\hspace{0.5em}2023年XX月XX日
+\newline
+队长
+\begin{itemize}
+    \item {带领团队进行了XX相关领域的研究与开发，主要侧重于XX。}
+    \item {在比赛中带领团队超过来自XX大学、XX大学、XX大学等队伍取得冠军。}
+\end{itemize}
+
+{\bf XX比赛}\hfill 2023年XX月XX日\hspace{0.5em}--\hspace{0.5em}2023年XX月XX日
+\newline
+队长
+\begin{itemize}
+    \item {XX比赛XX举办，........}
+    \item {........}
+\end{itemize}
+
+{\bf 国家级大学生创新项目\hspace{0.2em} | \hspace{0.2em}XX}\hfill 2023年XX月\hspace{0.5em}--\hspace{0.5em}至今
+\begin{itemize}
+    \item {设计并搭建了XX，........}
+    \item {........}
+\end{itemize}
+
+% {\bf 交流项目}
+% \begin{itemize}
+%     \item XX大学(University of XX)（202X年X月）
+%     \item YY大学(University of YY)（202X年X月）
+% \end{itemize}
+
+% increase linespacing [parsep=0.5ex]
+% \begin{itemize}[parsep=0.5ex]
+%     \item 编程语言: C == Python > \CC > Java
+%     \item 平台: Linux
+%     \item 开发: 英语六级，在读期间阅读了大量专业英文文献、开源项目英文文档等。
+% \end{itemize}
+
+% \section{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faUsers}\ 学生工作}
+\section{\texorpdfstring{\makebox[\widthof{\faUsers}][c]{\color{ZZU_BLUE}\faUsers}\ 工作经历}{工作经历}}
+ {\bf XX}\hfill 2022年XX月\hspace{0.5em}--\hspace{0.5em}至今
+\newline
+负责人
+\begin{itemize}
+    \item .......
+    \item ........
+\end{itemize}
+
+{\bf XX比赛\hspace{0.2em} | \hspace{0.2em}XX}\hfill 2023年
+\newline
+主裁判
+\begin{itemize}
+    \item 协助组委会进行比赛条件设置，协调比赛现场秩序，根据规则为各个参赛队伍打分。
+\end{itemize}
+% \section{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faWrench}\ 工作技能}
+% \section{\texorpdfstring{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faWrench}\ 工作技能}{工作技能}}
+
+% \begin{itemize}
+%     \item 教师资格证：高中数学，合格
+%     \item 普通话证书：二级甲等
+%     \item 文字排版：\LaTeX{}
+%     \item 编程：Matlab，Python，R，Geogebra
+
+% \end{itemize}
+
+% \section{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faTags}\ 其他}
+\section{\texorpdfstring{\makebox[\widthof{\faTags}][c]{\color{ZZU_BLUE}\faTags}\ 其他}{其他}}
+% \section{\texorpdfstring{\makebox[\widthof{\faWrench}][c]{\color{ZZU_BLUE}\faWrench}\ 其他}{其他}}
+% increase linespacing [parsep=0.5ex]
+
+\begin{itemize}
+    % \item 掌握 C/\CC，Python，ROS，PyTorch深度学习框架，Linux OS
+    \item 掌握 C/\CC，Python，ROS，PyTorch深度学习框架，Linux OS，\LaTeX
+\end{itemize}
+
+%%%% 如果多页简历，可以手动在适当位置插入 \newpage 或者 \clearpage 开始新一页
+
+\end{document}
+
