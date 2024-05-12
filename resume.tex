@@ -24,13 +24,13 @@
 \usepackage{multicol}
 \usepackage{xcolor}
 
-%%%% 统一一种颜色，偏蓝色，用于section下划线和font-awesome
+% 统一一种颜色，偏蓝色，用于section下划线和font-awesome
 \definecolor{ZZU_BLUE}{RGB}{0, 63,  148} % 从zzu校徽上取的蓝色
 
-%%% \widthof[]{} 用于特殊对齐时用到
+% \widthof[]{} 用于特殊对齐时用到
 \usepackage{calc}
 
-%%%% 利用tikz来定位照片和学校Logo
+% 利用tikz来定位照片和学校Logo
 \usepackage{graphicx}
 \usepackage{tikz}
 \usetikzlibrary{calc}
@@ -39,23 +39,23 @@
 \usepackage{fontspec}
 \usepackage{xeCJK}
 
-%% 取消中文与数字之间间隙
+% 取消中文与数字之间间隙
 \CJKsetecglue{}
 
-%%%%% 字体需要自己下载安装，注意版权问题，这两种字体应该比较好看，英文Helvetica，中文方正兰亭黑，也是有多种版本，自己试试哪些好看。
-%%%%% windows好像需要先安装字体，之后下面语句就够了
-%main document font
-%\setmainfont[
-%  BoldFont = HelveticaNeueLTPro-Md.otf ,
-%]{HelveticaNeueLTPro-Roman.otf}
-%
-%\setCJKmainfont[
-%BoldFont=Pro_GB18030-DemiBold.otf,
-%]{Pro_GB18030.otf}
-%%%%% 字体需要自己下载安装，注意版权问题
+% 字体注意版权问题，这两种字体应该比较好看，英文Helvetica，中文方正兰亭黑，也是有多种版本，自己试试哪些好看。
 
-%%%%% linux只需要字体路径就行了，如下
-%% main document font
+% windows好像需要先安装字体，之后下面语句就够了
+% main document font
+
+% \setmainfont[
+%     BoldFont = HelveticaNeueLTPro-Md.otf ,
+% ]{HelveticaNeueLTPro-Roman.otf}
+% \setCJKmainfont[
+%     BoldFont=Pro_GB18030-DemiBold.otf,
+% ]{Pro_GB18030.otf}
+
+% linux只需要字体路径就行了，如下
+% main document font
 \setmainfont[
     Path = ./fonts/,
     Extension = .otf,
@@ -67,8 +67,8 @@
     BoldFont=ProGB18030-DemiBold.otf,
 ]{ProGB18030.otf}
 
-%%%%% 定义更漂亮的“C++”，参考https://tex.stackexchange.com/questions/4302/prettiest-way-to-typeset-c-cplusplus 
-%%%%% 貌似跟具体字体大小有关，需要调下参数，我测试感觉下面的比较好看
+% 定义更漂亮的“C++”，参考https://tex.stackexchange.com/questions/4302/prettiest-way-to-typeset-c-cplusplus 
+% 貌似跟具体字体大小有关，需要调下参数，我测试感觉下面的比较好看
 \usepackage{relsize}
 \usepackage{xspace}
 \protected\def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.28ex}{\relsize{-1}++}}\xspace}
@@ -101,30 +101,29 @@
 \usepackage{siunitx}
 \usepackage{amssymb}
 
-%\xeCJKsetup{CJKspace=true}
-%\xeCJKDeclareCharClass{CJK}{`0 -> `9}    % 设置 0-9 以 CJK 字体输出
-%\normalspacedchars{0,1,2,3,4,5,6,7,8,9} % 0-9 的字符类被还原
+% \xeCJKsetup{CJKspace=true}
+% \xeCJKDeclareCharClass{CJK}{`0 -> `9}    % 设置 0-9 以 CJK 字体输出
+% \normalspacedchars{0,1,2,3,4,5,6,7,8,9} % 0-9 的字符类被还原
 
 \begin{document}
 \pagenumbering{gobble} % 隐藏页码显示
-%%%% 利用tikz来定位照片，部分招聘单位可能需要“以貌取人”
+% 利用tikz来定位照片，部分招聘单位可能需要“以貌取人”
 \begin{tikzpicture}[remember picture, overlay]
     \node[anchor = north east] at ($(current page.north east)+(-1cm,-1.2cm)$) {\includegraphics[height=2.8cm]{./images/one-inch_blue_background.pdf}};
 \end{tikzpicture}%
-%%%% 利用tikz来定位学校Logo，这里只在第一页显示，如果需要每页都有，可以考虑在页眉、页脚或者background中加入，不过简历也就一两页，无所谓了
+% 利用tikz来定位学校Logo，这里只在第一页显示，如果需要每页都有，可以考虑在页眉、页脚或者background中加入，不过简历也就一两页，无所谓了
 \begin{tikzpicture}[remember picture, overlay]
     \node[anchor = north west] at ($(current page.north west)+(0.2cm,-0.2cm)$) {\includegraphics[height=1.5cm]{./images/zzu_new.pdf}};
 \end{tikzpicture}
 
-%%%% 利用tikz来定位页脚栏，电子版简历使用，黑白纸质打印效果可能并不好。这里只在第一页显示，如果需要每页都有，页脚或者backgroud宏包中加入。
+% 利用tikz来定位页脚栏，电子版简历使用，黑白纸质打印效果可能并不好。这里只在第一页显示，如果需要每页都有，页脚或者backgroud宏包中加入
 \begin{tikzpicture}[remember picture, overlay]
     \node[anchor = south,fill=ZZU_BLUE,draw=none,minimum width=\paperwidth,minimum height=1.5em,align=center,font=\footnotesize,text=white] at ($(current page.south)$)
     {\faGithubAlt \ \href{https://github.com/XX}{https://github.com/XX}\qquad
         \faRssSquare \ \href{https://XX.github.io}{https://XX.github.io} };
 \end{tikzpicture}
 
-%tikzpicture环境很敏感，注释周围的空格、空行都会引起水平距离或垂直距离的变化，
-%
+% tikzpicture环境很敏感，注释周围的空格、空行都会引起水平距离或垂直距离的变化，
 \centerline{\LARGE\bfseries{M0rtzz}}
 
 \centerline{\normalsize{20岁 \hspace{0.5ex}|\hspace{0.5ex} 男 \hspace{0.5ex}|\hspace{0.5ex} 郑州}}
@@ -132,13 +131,13 @@
 \centerline{\normalsize{
         \faPhone \ 123 4567 8900 \quad
         \faEnvelopeO \ \href{mailto:m0rtzz@your-email.com}{m0rtzz@your-email.com}}}
-%%最好用你的edu邮箱
+% 最好用你的edu邮箱
 
-\centerline{\normalsize{ 
- \faExternalLink \ \href{https://XX.github.io}{https://XX.github.io} \quad
- \faGithubAlt \ \href{https://github.com/XX}{https://github.com/XX}
- }}
- \vspace{1.5ex}
+\centerline{\normalsize{
+        \faExternalLink \ \href{https://XX.github.io}{https://XX.github.io} \quad
+        \faGithubAlt \ \href{https://github.com/XX}{https://github.com/XX}
+    }}
+\vspace{1.5ex}
 
 % \section{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faGraduationCap}\  教育背景}
 \section{\texorpdfstring{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faGraduationCap}\ 教育经历}{教育经历}}
@@ -169,7 +168,7 @@
 
 % \section{\makebox[\widthof{\faGraduationCap}][c]{\color{ZZU_BLUE}\faUniversity}\ 实践经历}
 \section{\texorpdfstring{\makebox[\widthof{\faUniversity}][c]{\color{ZZU_BLUE}\faUniversity}\ 研究经历}{研究经历}}
- %  {\bf 教育实习}
+ % {\bf 教育实习}
  {\bf XX比赛}\hfill 2023年XX月XX日\hspace{0.5em}--\hspace{0.5em}2023年XX月XX日
 \newline
 队长
@@ -243,7 +242,6 @@
     \item 掌握 C/\CC，Python，ROS，PyTorch深度学习框架，Linux OS，\LaTeX
 \end{itemize}
 
-%%%% 如果多页简历，可以手动在适当位置插入 \newpage 或者 \clearpage 开始新一页
+% 如果多页简历，可以手动在适当位置插入 \newpage 或者 \clearpage 开始新一页
 
 \end{document}
-
