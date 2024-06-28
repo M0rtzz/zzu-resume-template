@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [1.0.10](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.13...v1.0.10) (2024-06-28)
+
 ## <small>1.0.9 (2024-06-28)</small>
 
 * ✨ feat: add overleaf read-only sharing link ([4e693d5](https://github.com/M0rtzz/zzu-resume-template/commit/4e693d5)), closes [#1](https://github.com/M0rtzz/zzu-resume-template/issues/1)
@@ -120,6 +126,3 @@
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
-
-
-
