@@ -1,8 +1,27 @@
-# Changelog
+## <small>1.0.9 (2024-06-28)</small>
 
-All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+* ✨ feat: add overleaf read-only sharing link ([4e693d5](https://github.com/M0rtzz/zzu-resume-template/commit/4e693d5)), closes [#1](https://github.com/M0rtzz/zzu-resume-template/issues/1)
+* ✨ feat(README.md): add Overleaf template url ([40b4b4d](https://github.com/M0rtzz/zzu-resume-template/commit/40b4b4d))
+* ✨ feat(resume.tex): change section "其他" to "自我评价" ([c62d1bc](https://github.com/M0rtzz/zzu-resume-template/commit/c62d1bc))
+* 💡 comment(resume.tex): update comments ([fc1fcbc](https://github.com/M0rtzz/zzu-resume-template/commit/fc1fcbc))
+* 📝 docs: add fontawesome-4.7.0.pdf ([d70c9a5](https://github.com/M0rtzz/zzu-resume-template/commit/d70c9a5))
+* 🔖 release(package.json): 1.0.17 ([4413b6d](https://github.com/M0rtzz/zzu-resume-template/commit/4413b6d))
+* 🔥 remove: remove unused zip file ([d53815e](https://github.com/M0rtzz/zzu-resume-template/commit/d53815e))
+* 🔥 remove(fontawesome-4.7.0.sty): rm unused comment ([924a563](https://github.com/M0rtzz/zzu-resume-template/commit/924a563))
+* 🤖 chore(Makefile): add makefile to compile tex ([92089ef](https://github.com/M0rtzz/zzu-resume-template/commit/92089ef))
+* 🚧 wip: work in progress ([22da0fb](https://github.com/M0rtzz/zzu-resume-template/commit/22da0fb))
+* 🚧 wip(resume.pdf): update pdf file ([1cac3fb](https://github.com/M0rtzz/zzu-resume-template/commit/1cac3fb))
 
-## [1.0.13](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.12...v1.0.13) (2024-04-19)
+
+
+## <small>1.0.13 (2024-04-19)</small>
+
+* chore(release): 1.0.13 ([9eb8285](https://github.com/M0rtzz/zzu-resume-template/commit/9eb8285))
+* 📝 docs(CHANGELOG.md): automatic update ([9fb95b1](https://github.com/M0rtzz/zzu-resume-template/commit/9fb95b1))
+* 📝 docs(README.md): add hyperlink to VSCode configuration doc ([e334612](https://github.com/M0rtzz/zzu-resume-template/commit/e334612))
+* 📝 docs(VSCode_Configuration.md): add VSCode_Configuration.md ([2d5596d](https://github.com/M0rtzz/zzu-resume-template/commit/2d5596d))
+
+
 
 ## <small>1.0.12 (2024-04-19)</small>
 
@@ -101,3 +120,6 @@ All notable changes to this project will be documented in this file. See [commit
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
+
+
+
