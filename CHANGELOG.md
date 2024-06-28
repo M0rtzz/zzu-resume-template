@@ -1,8 +1,14 @@
-# Changelog
+## <small>1.0.19 (2024-06-28)</small>
 
-All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+* 🔖 tag(package.json): v1.0.19 ([d045466](https://github.com/M0rtzz/zzu-resume-template/commit/d045466))
 
-## [1.0.19](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.17...v1.0.19) (2024-06-28)
+
+
+## <small>1.0.18 (2024-06-28)</small>
+
+* 🔖 release(package.json): update version ([96a3edb](https://github.com/M0rtzz/zzu-resume-template/commit/96a3edb))
+
+
 
 ## <small>1.0.17 (2024-06-28)</small>
 
@@ -11,6 +17,7 @@ All notable changes to this project will be documented in this file. See [commit
 * ✨ feat(resume.tex): change section "其他" to "自我评价" ([c62d1bc](https://github.com/M0rtzz/zzu-resume-template/commit/c62d1bc))
 * 💡 comment(resume.tex): update comments ([fc1fcbc](https://github.com/M0rtzz/zzu-resume-template/commit/fc1fcbc))
 * 📝 docs: add fontawesome-4.7.0.pdf ([d70c9a5](https://github.com/M0rtzz/zzu-resume-template/commit/d70c9a5))
+* 📝 docs(CHANGELOG.md): automatic update ([2480b5a](https://github.com/M0rtzz/zzu-resume-template/commit/2480b5a))
 * 📝 docs(CHANGELOG.md): automatic update ([5c45795](https://github.com/M0rtzz/zzu-resume-template/commit/5c45795))
 * 🔖 release(package.json): 1.0.17 ([4413b6d](https://github.com/M0rtzz/zzu-resume-template/commit/4413b6d))
 * 🔖 tag(package.json): v1.0.17 ([e4dd179](https://github.com/M0rtzz/zzu-resume-template/commit/e4dd179))
@@ -128,3 +135,6 @@ All notable changes to this project will be documented in this file. See [commit
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
+
+
+
