@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [1.0.20](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.19...v1.0.20) (2024-07-01)
+
 ## <small>1.0.20 (2024-06-28)</small>
 
 * 🔖 tag(package.json): v1.0.20 ([3a8daa1](https://github.com/M0rtzz/zzu-resume-template/commit/3a8daa1))
@@ -142,6 +148,3 @@
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
-
-
-
