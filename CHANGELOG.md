@@ -1,25 +1,17 @@
-# Changelog
+## <small>1.0.20 (2024-07-01)</small>
 
-All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
-
-## [1.0.20](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.19...v1.0.20) (2024-07-01)
-
-## <small>1.0.20 (2024-06-28)</small>
-
-* 🔖 tag(package.json): v1.0.20 ([3a8daa1](https://github.com/M0rtzz/zzu-resume-template/commit/3a8daa1))
+* ⚡️ perf: i think global mirror site is faster ([5761e64](https://github.com/M0rtzz/zzu-resume-template/commit/5761e64))
+* 🔖 tag(package.json): v1.0.20 ([985c788](https://github.com/M0rtzz/zzu-resume-template/commit/985c788))
 
 
 
 ## <small>1.0.19 (2024-06-28)</small>
 
+* 📝 docs(CHANGELOG.md): automatic update ([44e2372](https://github.com/M0rtzz/zzu-resume-template/commit/44e2372))
 * 📝 docs(CHANGELOG.md): automatic update ([35711df](https://github.com/M0rtzz/zzu-resume-template/commit/35711df))
-* 🔖 tag(package.json): v1.0.19 ([d045466](https://github.com/M0rtzz/zzu-resume-template/commit/d045466))
-
-
-
-## <small>1.0.18 (2024-06-28)</small>
-
 * 🔖 release(package.json): update version ([96a3edb](https://github.com/M0rtzz/zzu-resume-template/commit/96a3edb))
+* 🔖 tag(package.json): v1.0.19 ([d045466](https://github.com/M0rtzz/zzu-resume-template/commit/d045466))
+* 🔖 tag(package.json): v1.0.20 ([3a8daa1](https://github.com/M0rtzz/zzu-resume-template/commit/3a8daa1))
 
 
 
@@ -148,3 +140,6 @@ All notable changes to this project will be documented in this file. See [commit
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
+
+
+
