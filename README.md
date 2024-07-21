@@ -22,24 +22,28 @@ make
 
 提供[Overleaf模板](https://www.overleaf.com/latex/templates/zzu-resume-template/ybncyftnwjhw)，根据链接内项目的文件树进行准备即可。
 
-![1](https://cdn.jsdelivr.us/gh/M0rtzz/ImageHosting@master/images/Year:2024/Month:06/Day:08/20:20:00_image-20240608202000787.png)
+![1](https://static.m0rtzz.com/images/Year:2024/Month:06/Day:08/20:20:00_image-20240608202000787.png)
 
 ### 一些注意事项
 
 如果报错：
 
-![2](https://cdn.jsdelivr.us/gh/M0rtzz/ImageHosting@master/images/Year:2024/Month:06/Day:07/11:10:38_image-20240607111037972.png)
+![2](https://static.m0rtzz.com/images/Year:2024/Month:06/Day:07/11:10:38_image-20240607111037972.png)
 
 请检查编译器是不是`xelatex`：
 
 点击左上角的`Menu`：
 
-![3](https://cdn.jsdelivr.us/gh/M0rtzz/ImageHosting@master/images/Year:2024/Month:06/Day:07/11:10:10_image-20240607111010233.png)
+![3](https://static.m0rtzz.com/images/Year:2024/Month:06/Day:07/11:10:10_image-20240607111010233.png)
 
 选择`Compiler`为`xelatex`：
 
-![4](https://cdn.jsdelivr.us/gh/M0rtzz/ImageHosting@master/images/Year:2024/Month:06/Day:07/11:10:54_image-20240607111054760.png)
+![4](https://static.m0rtzz.com/images/Year:2024/Month:06/Day:07/11:10:54_image-20240607111054760.png)
 
 编译成功：
 
-![5](https://cdn.jsdelivr.us/gh/M0rtzz/ImageHosting@master/images/Year:2024/Month:06/Day:07/11:13:21_image-20240607111321735.png)
+![5](https://static.m0rtzz.com/images/Year:2024/Month:06/Day:07/11:13:21_image-20240607111321735.png)
+
+## Reference
+
+[BNUCV](https://www.overleaf.com/latex/templates/bnucv/stjnkyqdcqzm)
