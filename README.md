@@ -36,15 +36,15 @@ make
 
 点击右上角的`Settings`：
 
-![image-20240917142447536](https://static.m0rtzz.com/images/Year:2024/Month:09/Day:17/14:24:47_image-20240917142447536.png)
+![3](https://static.m0rtzz.com/images/Year:2024/Month:09/Day:17/14:24:47_image-20240917142447536.png)
 
 选择`Compiler`为`XeLaTeX`：
 
-![3](https://static.m0rtzz.com/images/Year:2024/Month:09/Day:17/14:25:31_image-20240917142531922.png)
+![4](https://static.m0rtzz.com/images/Year:2024/Month:09/Day:17/14:25:31_image-20240917142531922.png)
 
 编译成功：
 
-![4](https://static.m0rtzz.com/images/Year:2024/Month:09/Day:19/08:37:47_image-20240919083747128.png)
+![5](https://static.m0rtzz.com/images/Year:2024/Month:09/Day:19/08:37:47_image-20240919083747128.png)
 
 ## Reference
 
