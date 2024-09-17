@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [1.0.21](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.20...v1.0.21) (2024-09-17)
+
 ## <small>1.0.20 (2024-07-01)</small>
 
 * ⚡️ perf: i think global mirror site is faster ([5761e64](https://github.com/M0rtzz/zzu-resume-template/commit/5761e64))
@@ -140,6 +146,3 @@
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
-
-
-
