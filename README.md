@@ -49,3 +49,5 @@ Overleaf的模板正在审核。
 ## Reference
 
 [BNUCV](https://www.overleaf.com/latex/templates/bnucv/stjnkyqdcqzm)
+
+[faXeTeX](https://github.com/srikanthy/faXeTeX)
