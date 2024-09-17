@@ -1,37 +1,37 @@
-# Changelog
+## <small>1.0.21 (2024-09-17)</small>
 
-All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+* chore(release): 1.0.21 ([053b1d8](https://github.com/M0rtzz/zzu-resume-template/commit/053b1d8))
+* ✨ feat: add TeXPage template url ([7286b79](https://github.com/M0rtzz/zzu-resume-template/commit/7286b79))
+* 💬 text: update content ([420fb36](https://github.com/M0rtzz/zzu-resume-template/commit/420fb36))
+* 📝 docs(README.md): update image url and reference ([52fd8ea](https://github.com/M0rtzz/zzu-resume-template/commit/52fd8ea))
+* 🚧 wip(README.md): waiting for template review ([199fbf9](https://github.com/M0rtzz/zzu-resume-template/commit/199fbf9))
 
-## [1.0.21](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.20...v1.0.21) (2024-09-17)
+
 
 ## <small>1.0.20 (2024-07-01)</small>
 
 * ⚡️ perf: i think global mirror site is faster ([5761e64](https://github.com/M0rtzz/zzu-resume-template/commit/5761e64))
+* 📝 docs(CHANGELOG.md): automatic update ([27b2dbb](https://github.com/M0rtzz/zzu-resume-template/commit/27b2dbb))
 * 🔖 tag(package.json): v1.0.20 ([985c788](https://github.com/M0rtzz/zzu-resume-template/commit/985c788))
 
 
 
 ## <small>1.0.19 (2024-06-28)</small>
 
-* 📝 docs(CHANGELOG.md): automatic update ([44e2372](https://github.com/M0rtzz/zzu-resume-template/commit/44e2372))
-* 📝 docs(CHANGELOG.md): automatic update ([35711df](https://github.com/M0rtzz/zzu-resume-template/commit/35711df))
-* 🔖 release(package.json): update version ([96a3edb](https://github.com/M0rtzz/zzu-resume-template/commit/96a3edb))
-* 🔖 tag(package.json): v1.0.19 ([d045466](https://github.com/M0rtzz/zzu-resume-template/commit/d045466))
-* 🔖 tag(package.json): v1.0.20 ([3a8daa1](https://github.com/M0rtzz/zzu-resume-template/commit/3a8daa1))
-
-
-
-## <small>1.0.17 (2024-06-28)</small>
-
 * ✨ feat: add overleaf read-only sharing link ([4e693d5](https://github.com/M0rtzz/zzu-resume-template/commit/4e693d5)), closes [#1](https://github.com/M0rtzz/zzu-resume-template/issues/1)
 * ✨ feat(README.md): add Overleaf template url ([40b4b4d](https://github.com/M0rtzz/zzu-resume-template/commit/40b4b4d))
 * ✨ feat(resume.tex): change section "其他" to "自我评价" ([c62d1bc](https://github.com/M0rtzz/zzu-resume-template/commit/c62d1bc))
 * 💡 comment(resume.tex): update comments ([fc1fcbc](https://github.com/M0rtzz/zzu-resume-template/commit/fc1fcbc))
 * 📝 docs: add fontawesome-4.7.0.pdf ([d70c9a5](https://github.com/M0rtzz/zzu-resume-template/commit/d70c9a5))
+* 📝 docs(CHANGELOG.md): automatic update ([44e2372](https://github.com/M0rtzz/zzu-resume-template/commit/44e2372))
+* 📝 docs(CHANGELOG.md): automatic update ([35711df](https://github.com/M0rtzz/zzu-resume-template/commit/35711df))
 * 📝 docs(CHANGELOG.md): automatic update ([2480b5a](https://github.com/M0rtzz/zzu-resume-template/commit/2480b5a))
 * 📝 docs(CHANGELOG.md): automatic update ([5c45795](https://github.com/M0rtzz/zzu-resume-template/commit/5c45795))
 * 🔖 release(package.json): 1.0.17 ([4413b6d](https://github.com/M0rtzz/zzu-resume-template/commit/4413b6d))
+* 🔖 release(package.json): update version ([96a3edb](https://github.com/M0rtzz/zzu-resume-template/commit/96a3edb))
 * 🔖 tag(package.json): v1.0.17 ([e4dd179](https://github.com/M0rtzz/zzu-resume-template/commit/e4dd179))
+* 🔖 tag(package.json): v1.0.19 ([d045466](https://github.com/M0rtzz/zzu-resume-template/commit/d045466))
+* 🔖 tag(package.json): v1.0.20 ([3a8daa1](https://github.com/M0rtzz/zzu-resume-template/commit/3a8daa1))
 * 🔥 remove: remove unused zip file ([d53815e](https://github.com/M0rtzz/zzu-resume-template/commit/d53815e))
 * 🔥 remove(fontawesome-4.7.0.sty): rm unused comment ([924a563](https://github.com/M0rtzz/zzu-resume-template/commit/924a563))
 * 🤖 chore(Makefile): add makefile to compile tex ([92089ef](https://github.com/M0rtzz/zzu-resume-template/commit/92089ef))
@@ -146,3 +146,6 @@ All notable changes to this project will be documented in this file. See [commit
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
+
+
+
