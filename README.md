@@ -18,11 +18,13 @@ make
 
 [https://www.m0rtzz.com/posts/4](https://www.m0rtzz.com/posts/4)
 
-## TeXPage
+## 模板
 
-提供[模板](Under Review)，根据链接内项目的文件树进行准备即可。
+提供[TeXPage模板](https://www.texpage.com/template/c3377f5a-e74e-4beb-8181-0568471db777)，根据链接内项目的文件树进行准备即可。
 
-Overleaf和TeXPage的模板正在审核。
+![image-20240917171355202](https://static.m0rtzz.com/images/Year:2024/Month:09/Day:17/17:14:00_image-20240917171355202.png)
+
+Overleaf的模板正在审核。
 
 ### 一些注意事项
 
