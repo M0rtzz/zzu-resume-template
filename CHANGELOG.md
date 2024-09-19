@@ -1,14 +1,11 @@
-# Changelog
+## <small>1.0.23 (2024-09-19)</small>
 
-All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
-
-## [1.0.23](https://github.com/M0rtzz/zzu-resume-template/compare/v1.0.21...v1.0.23) (2024-09-19)
-
-## <small>1.0.22 (2024-09-17)</small>
-
-* chore(release): 1.0.22 ([db34f69](https://github.com/M0rtzz/zzu-resume-template/commit/db34f69))
-* 📝 doc(README.md): update reference ([93abc3f](https://github.com/M0rtzz/zzu-resume-template/commit/93abc3f))
+* chore(release): 1.0.22 ([8c96b93](https://github.com/M0rtzz/zzu-resume-template/commit/8c96b93))
+* chore(release): 1.0.23 ([d84496a](https://github.com/M0rtzz/zzu-resume-template/commit/d84496a))
+* 📝 docs(CHANGELOG.md): automatic update ([3b7c5ff](https://github.com/M0rtzz/zzu-resume-template/commit/3b7c5ff))
 * 📝 docs(CHANGELOG.md): automatic update ([90c7be8](https://github.com/M0rtzz/zzu-resume-template/commit/90c7be8))
+* 📝 docs(README.md): update image url ([619545d](https://github.com/M0rtzz/zzu-resume-template/commit/619545d))
+* 📝 docs(README.md): update reference ([5ba6f6a](https://github.com/M0rtzz/zzu-resume-template/commit/5ba6f6a))
 
 
 
@@ -160,3 +157,6 @@ All notable changes to this project will be documented in this file. See [commit
 
 * chore(release): 1.0.1 ([8bf55d2](https://github.com/M0rtzz/zzu-resume-template/commit/8bf55d2))
 * 🎉 init: initial commit ([632e61e](https://github.com/M0rtzz/zzu-resume-template/commit/632e61e))
+
+
+
