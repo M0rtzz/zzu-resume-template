@@ -24,7 +24,7 @@ make
 
 ![1](https://static.m0rtzz.com/images/Year:2024/Month:09/Day:19/08:34:42_image-20240919083321818.png)
 
-Overleaf的模板正在审核。
+`Overleaf`的模板正在审核。
 
 ### 一些注意事项
 
