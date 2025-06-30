@@ -20,7 +20,7 @@ make
 
 ## 模板
 
-提供[TeXPage模板](https://www.texpage.com/template/c3377f5a-e74e-4beb-8181-0568471db777)，根据链接内项目的文件树进行准备即可。
+提供[TeXPage模板](https://www.texpage.com/template/c2e9aaee-7e6d-49a3-8ed1-b87e728603a4)，根据链接内项目的文件树进行准备即可。
 
 ![1](https://static.m0rtzz.com/images/Year:2024/Month:09/Day:19/08:34:42_image-20240919083321818.png)
 
